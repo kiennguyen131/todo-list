@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import TodoItem from './components/TodoItem'
 
-
-
 class App extends React.Component { 
   constructor(){
     super();
@@ -26,6 +24,7 @@ class App extends React.Component {
         }
       </div>
     )
+
   }
 }
 
